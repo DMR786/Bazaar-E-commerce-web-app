@@ -1,0 +1,121 @@
+/* OrderForm.css */
+
+/* Container for the order form */
+.order-form-container {
+  width: 100%;
+  max-width: 600px; /* Set a maximum width for better visibility */
+  margin: 20px auto; /* Center the form horizontally with some top margin */
+  padding: 20px;
+  border: 1px solid #ddd; /* Light border around the form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4); /* Subtle shadow effect */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Heading styles */
+.order-form-container h2 {
+  text-align: center; /* Centered heading */
+  color: #333; /* Dark text color */
+  margin: 20px; /* Margin below the heading */
+}
+
+/* General styling for form groups */
+.form-group {
+  margin:20px;
+  /* margin-bottom: 15px; Spacing between form groups */
+}
+
+/* Label styling */
+label {
+  display: block; /* Labels on separate lines */
+  font-weight: bold; /* Bold labels */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="month"],
+textarea {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Inner padding */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded input corners */
+  font-size: 14px; /* Font size */
+}
+
+/* Textarea specific styles */
+textarea {
+  height: 80px; /* Set a fixed height for text area */
+  resize: none; /* Disable resizing */
+}
+
+/* Radio button styles */
+input[type="radio"] {
+  margin-right: 10px; /* Space between radio and label */
+}
+
+/* Payment method container */
+.form-group > div {
+  display: flex; /* Use Flexbox for horizontal layout */
+  gap: 15px; /* Space between payment method options */
+}
+
+/* Payment options container */
+.payment-options {
+  display: flex; /* Use Flexbox for horizontal layout */
+  justify-content: center; /* Center the items horizontally */
+  margin-top: 10px; /* Space above payment options */
+}
+
+/* Payment logo styles */
+.payment-options img {
+  height: 30px; /* Set a fixed height for logos */
+  width: auto; /* Allow width to adjust to maintain aspect ratio */
+  cursor: pointer; /* Pointer on hover */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for hover effects */
+  margin: 0 10px; /* Add horizontal margin for spacing */
+}
+
+/* Payment logo hover effect */
+.payment-options img:hover {
+  transform: scale(1.1); /* Scale logo on hover for emphasis */
+  filter: brightness(1.1); /* Slightly brighten the logo on hover */
+}
+
+/* Label styles for payment options */
+.payment-option label {
+  display: block; /* Ensure labels are on separate lines */
+  font-size: 12px; /* Font size for labels */
+  color: #333; /* Updated color for better visibility */
+  margin-top: 5px; /* Space between the logo and label */
+  text-align: center; /* Center align the text under logos */
+}
+
+/* Message styles for COD */
+.cod-message {
+  color: green; /* Green text for visibility */
+  font-weight: bold; /* Bold message */
+  padding: 10px; /* Padding around the message */
+  background-color: #e8f5e9; /* Light green background */
+  border: 1px solid #c8e6c9; /* Slightly darker border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Button styling */
+.submit-btn {
+  width: 100%; /* Full width button */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px; /* Inner padding */
+  cursor: pointer; /* Pointer on hover */
+  border-radius: 5px; /* Rounded button corners */
+  font-size: 16px; /* Larger font size */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Button hover effect */
+.submit-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
